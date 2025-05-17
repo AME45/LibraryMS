@@ -6,7 +6,7 @@
         <!--        logo和系统名称-->
         <div class="m-sysName" >
           <img src="@/assets/logo.png" alt="" width="10%">
-          <span class="m-nameText">跟着春姐做毕设</span>
+          <span class="m-nameText">麻雀苦手</span>
         </div>
         <!--        侧边菜单栏-->
         <el-menu class="el-menu" :default-active="$route.path" router >
@@ -16,7 +16,7 @@
           </el-submenu>
           <el-submenu index="2">
             <template slot="title"><i class="el-icon-user"></i>用户管理</template>
-            <el-menu-item index="/admin">管理员管理</el-menu-item>
+            <el-menu-item index="/manager/admin">管理员管理</el-menu-item>
             <el-menu-item index="1-2">用户管理</el-menu-item>
           </el-submenu>
           <el-submenu index="3">
